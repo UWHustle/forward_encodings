@@ -32,4 +32,14 @@ $ ./simple_setup.sh
 $ ./simple_run_experiment_sf1.sh
 ```
 
+Experiment results are in the form of 4 CSV files:
 
+`experiment.csv`: The compression experiment.
+
+`microbench.csv`: The microbenchmarks using the Taxi dataset.
+
+`ssb.csv`: The SSB results.
+
+`tpch.csv`: The TPC-H Q6 results.
+
+All times reported in the CSV files are in nanoseconds.

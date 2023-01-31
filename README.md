@@ -22,6 +22,7 @@ binary.
 These scripts have been adapted to `simple_setup.sh` 
 and `simple_run_experiment_sf1.sh`,
 which can be run on any Intel-based Ubuntu 22 machine.
+The script assumes GCC-11 is located at `/usr/bin/gcc-11`.
 Data will be fetched to a local `data/` directory, experiment binary
 will be built in `release/`, and results will be placed in `results/`.
 The experiment is run at scale factor 1.
